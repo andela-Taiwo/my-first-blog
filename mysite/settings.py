@@ -108,9 +108,9 @@ AUTH_PASSWORD_VALIDATORS = [
 LANGUAGE_CODE = 'en-us'
 
 <<<<<<< HEAD
-TIME_ZONE = 'Africa\Lagos'
+
 =======
-TIME_ZONE = 'AFRICA\Lagos'
+TIME_ZONE = 'UTC'
 >>>>>>> 2ac57f5367fd9c47337c221999a1cb162792607b
 
 USE_I18N = True
