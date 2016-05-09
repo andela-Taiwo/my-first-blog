@@ -1,26 +1,15 @@
-<html>
-	<head>
-		<title>TechTweaks</title>
+                    {% extends 'blog/base.html' %}
+                    {% block content %}
+					{% for post in posts %}
 
-	</head>
-	<body>
+					<div class="post">
+						<div class="date">
+							<p>Published: {{post.published_date}}</p>
+						</div>
 
-		<div>
-			<h1>TechTweaks Blog</h1>
-		</div>
-		
-		{% for post in posts %}
+						<h2><a href="{% url 'post_detail' pk=post.pk %}">{{post.title}}</a></h2>
+						<p >{{ post.text|linebreaks }}</p>
+					</div>
 
-			<div>
-				<p>Published: {{post.published_date}}</p>
-				<a href=""><h2>{{post.title}}</h2></a>
-				<p>{{ post.text|linebreaks }}</p>
-			</div>
-		{% endfor %}
-			
-
-		
-	</body>
-
-
-</html>
+					{% endfor %}
+					{% endblock %}
