@@ -1,0 +1,1053 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/****General Rules****/
+body{
+	font-family: Helvetica,Arial, sans-serif;
+	font-weight:14px;
+}
+@font-face{
+	font-family:'lobster';
+	src:url('fonts/LobsterTwo-Regular.ttf') format('truetype');
+	font-family:'Museo';
+	src:url('fonts/Museo_Slab.otf') format('truetype');
+	
+}
+h1,h2,h3,h4,h5,h6{
+	font-family:'Museo',Rockwell,Serif;
+	color:#333333;
+	text-shadow:none;
+}
+a{
+	color:#fb2f3a;
+}
+a:hover ,a:focus{
+	color:#c71e28;
+	text-decoration:none;	
+}
+button.btn{
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	background:#dba128;
+	font-size:12px;
+	font-weight:bold;
+	box-shadow:inset 0 1px 0 rgba(255,255,255,0.2);
+	text-shadow:none;
+	color:#fff;
+	border:1px solid rgba(0,0,0,0.2);
+	margin-top:20px;
+	margin-bottom:10px
+}
+button.btn:hover,button.btn:focus{
+	background:#da7000;
+	color:#fff;
+	border:1px solid rgba(0,0,0,0.2);
+}
+
+.heading h3 h4 {
+	color:#2D2D2D;
+	}
+	
+	
+.heading{
+	margin-bottom:15px;
+}
+
+ blockquote{
+	overflow:hidden;
+	border:none;
+}
+p{
+	overflow:hidden;
+	font-family: 'lobster',Helvetica, serif,Arial;
+}
+
+cite{
+	font-size:14px;
+	font-weight:bold;
+}
+li{
+	font-size:14px;
+	color:#161616;}
+.table{
+	background:#FFF;	
+		
+		}
+.tableHeader{
+	background-image:url(images/bg_header_real.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:top center;
+	height:50px;
+			color:#EAEAEA;
+		padding-top:10px;
+	
+
+}
+
+/********** End General rules *************/
+
+
+/***************** Start contact **************************/
+	#contact h3{
+		color:#fff;
+	}
+	#contact p{
+		font-style:italic;
+	
+	}
+
+/*********** End Contact rules *************/
+
+
+/*********jumbotron start*****************/
+.jumbotron {
+    padding-top: 0px;
+	background: #222 url(images/jumbotron3.jpg) no-repeat 50% top;
+	background-size:cover;
+	height:600px;
+	margin-bottom:0px;
+	border-radius:0;
+	}
+
+
+/******************************* End of jumbotron*********************************************/
+
+
+
+/*******************************Start of Carousel*********************************************/
+.active.item{
+	height:200px;
+	margin-bottom:60px;
+	
+}
+.carousel-inner{
+	
+		height:280px;
+}
+.carousel {
+	
+	margin-top:0px;
+}
+
+.carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left {
+	background:none;
+
+}
+
+.carousel-control {
+	color:#818181;
+	}
+.carousel-indicators li {
+	border: 1px solid #818181;
+	}
+.carousel-indicators .active{
+	background-color:rgba(200,200,200,0.3);
+}
+#item1{
+	background:transparent no-repeat;
+
+	
+	}
+	
+	
+#item2{
+	background:url(images/thumbnails/home.png)top center no-repeat;
+	height:160px;
+	width:220px;
+	
+
+	
+	
+	
+	}
+
+#item3{
+	background:url(images/thumbnails/plantainthb.png) top left no-repeat;
+	height:160px;
+	width:220px;
+	
+	
+	}
+	
+#item4{
+	background:url(images/thumbnails/sites.png) left top no-repeat;
+	height:160px;
+	width:220px;
+	
+	
+	}
+
+/*******************************End of Carousel*********************************************/
+
+
+
+
+/*******************************Start of Nav Bar*********************************************/
+
+.navbar-collapse {
+	margin:0px;
+	
+	padding:30px 0px;
+	background:transparent;
+	border:none;
+	box-shadow: none;
+	margin-bottom:30px;
+	margin-top:20px;
+	
+	}
+
+.navbar-default {
+	border:none;
+	box-shadow: none;
+	margin:0;
+	padding:0;
+	
+	
+}
+
+
+.navbar {
+	margin-top:0px;
+	background:transparent;
+	border-bottom:1px solid rgba(255,255,255,0.2);
+}
+
+.navbar-brand{
+	text-indent:-9999px;
+	background:url(images/logo4.png) no-repeat;
+	width:238px;
+	height:68px;
+	margin-top:20px;
+}
+
+.navbar-default .navbar-nav > li{
+	
+}
+.navbar-default .navbar-nav > li > a {
+	
+	text-shadow:none;
+		color:#fff;
+}
+
+	
+.navbar-nav > li > a{
+	font-weight:bold;
+	font-size:14px;
+	text-shadow:none;
+	color:#ffffff;
+	padding:4px 10px;
+}
+
+
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+	box-shadow:none;
+	background:transparent;
+	color:rgba(255,255,255,0.7);
+}
+
+.navbar-default .navbar-nav > .active > a{
+	box-shadow:none;
+	background:rgba(0,0,0,0.7) no-repeat  ;
+	color:#fff;
+		
+}
+ .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+	box-shadow:none;
+	background:rgba(0,0,0,0.7) no-repeat  ;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	color:rgba(255,255,255,0.7);
+}
+
+
+.navbar-collapse {
+	background:none ;
+	margin-bottom:20px;
+	box-shadow:none;
+	
+}
+.navbar-collapse.collapse {
+	
+}
+
+
+
+button.navbar-toggle {
+	background:#fff;
+	box-shadow:none;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background:#000;
+}
+
+.nav{
+	background:transparent no-repeat;
+	border:none;
+	float:right;
+	margin-bottom:20px;
+
+}
+.nav >li {
+	
+	display:inline-block;
+	
+	
+}
+.nav >li > a{
+
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+	background:transparent;
+	padding:4px 10px;
+	
+}
+
+.nav >li > a:hover, .nav >li > a:focus{
+	box-shadow:none;
+	background:transparent;
+	color:rgba(255,255,255,0.7);
+}
+
+
+.nav > .active > a:hover,.nav > .active > a:focus{
+	box-shadow:none;
+	background:rgba(0,0,0,0.7) no-repeat  ;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	color:rgba(255,255,255,0.7);
+
+}
+
+.nav > .active{
+	box-shadow:none;
+	background:rgba(0,0,0,0.7) no-repeat  ;
+	color:#fff;
+	
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+	background:none;
+}
+/******************************* End of Nav Bar*********************************************/
+
+
+
+/******************************* jumbotron-inner*********************************************/
+.jumbotron-inner h1{
+	margin-top:50px;
+	margin-bottom:25px;
+	font-weight:48px;
+	color:#fff;
+	text-shadow:0 1px 0 rgba(0,0,0,0.3);
+
+}
+
+.jumbotron-inner h2,.carousel-caption h2{
+	margin-top:60px;
+	margin-bottom:30px;
+	font-weight:34px;
+	color:#fff;
+	text-shadow:0 1px 0 rgba(0,0,0,0.3);
+
+}
+.jumbotron-inner h4{
+	color:#fff;
+	text-shadow:0 1px 0 rgba(0,0,0,0.3);
+
+}
+
+.jumbotron-inner button.btn{
+	background:#fb2f3a;
+	font-size:16px;
+	font-weight:bold;
+	box-shadow: 0 2px 1px rgba(0,0,0,0.4);
+	text-shadow:none;
+	color:#fff;
+	border:none;
+	margin-top:20px;
+}
+/** End Jumbotron-inner*/
+
+/** *******Start Service******/
+#service{
+	background:#eeeeee;
+	border-bottom:#dddddd;
+	border-top:1px solid #fff;
+	box-sizing:0 -2px 4px rgba(0,0,0,0.3);
+	position:relative;
+	z-index:100;
+	padding:60px 0px;;
+	}
+	
+#service li{
+	list-style:none;}
+	/** *******End Service********/
+	
+	
+	
+	/** *******Start process*/
+#process h3 h4{
+	color:#181818;
+	}
+#process{
+	background:#eeeeee;
+	border-bottom:#dddddd;
+	border-top:1px solid #fff;
+	box-sizing:0 -2px 4px rgba(0,0,0,0.3);
+	position:relative;
+	z-index:100;
+	padding:60px 0px;
+	
+
+}
+#process li{
+	list-style:none;
+	display:block;
+	
+}
+
+
+.land li{
+	
+	padding-left:50px;
+	
+	color:#555;
+	
+	
+}
+.mortgage li{
+	
+	padding-left:40px;
+	color:#555;
+}
+
+.consruction li{
+	
+	padding-left:30px;
+	color:#555;
+	
+}
+
+.estate li{
+	
+	padding-left:10px;
+	color:#555;
+	
+}
+
+.process-icon{
+	margin-bottom:10px;
+	display:inline-block;
+	width:100px;
+	height:100px;
+	background:transparent url(images/process_sprite2.png) no-repeat;
+	background-position:left top;
+}
+
+.process-icon.imortgage{
+	background-position:-100px top;
+}
+
+.process-icon.iconstruction{
+	background-position:-200px top;
+}	
+
+.process-icon.iestate{
+	background-position:-300px top;
+}
+.process-connector{
+	max-height:5px;
+	background:url(images/h-line.jpg) repeat-x;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	position:relative;
+	top:55px;
+	
+}
+/******** End Process*******/
+
+
+/******** Start Product*******/
+.products{
+	padding:60px 0;
+}
+#product{
+	color:#fff;}
+#home{
+	background:url(images/thumbnails/home.png) no-repeat top center;
+	margin-bottom:10px;
+	width:220px;
+	height:160px;
+	background-color: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+	}
+#land{
+	background:url(images/thumbnails/sites.png) no-repeat top center;
+	margin-bottom:10px;
+	width:220px;
+	height:160px;
+	background-color: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+	}
+#plantain{
+	background:url(images/thumbnails/plantainthb.png) no-repeat top center;
+	margin-bottom:10px;
+	width:220px;
+	height:160px;
+	background-color: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+	}
+.title{
+	margin-bottom:0;
+}
+/******** End Product*******/
+
+/******** Start property*******/
+.property{
+	padding:60px 0;
+	border-bottom:1px solid #ddd;
+	margin-bottom:60px;
+}
+.property h3{
+	color:#fff;
+}
+
+
+
+/******** End Property******/
+
+/******** Start Widgets*******/
+#widget{
+	padding:50px 0 60px 0;
+	border-bottom:1px solid #ddd;
+	margin-bottom:40px;
+	
+}
+.testimonial blockquote{
+	overflow:hidden;
+	border:none;
+}
+
+.testimonial blockquote p{
+	font-family:Georgia,serif;
+	font-size:14px;
+	font-style:italic;
+	margin-bottom:20px;
+}
+.news-list{
+	list-style:none;
+	padding:0;
+	margin:0;
+	color:#77001E;
+}
+.news-list li{
+	border-bottom:1px solid #ddd;
+	padding:20px 0;
+	color:#77001E;
+}
+
+.news-list li:first-child{
+	padding-top:0;
+}
+.news-list li:last-child{
+	border-bottom:0;
+}
+.news-list h5{
+	padding:0;
+	
+}
+
+.news-list a{
+	color:#000040;
+	margin-bottom:5px;
+	font-size:14px;
+	font:Helvetica, sans-serif;
+	text-shadow:none;
+
+}
+
+.news-list a:hover{
+	color:#004080;
+}
+/******** End Widgets*******/
+
+/******** Footer*******/
+.footer-links li{
+	list-style:none;
+	display: inline-table;
+	margin-bottom:40px;
+}
+.footer-links li a{
+	padding:20px;
+	color:#333;
+	font-size:12px;
+}
+.footer-links li a:hover,.footer-links li a:focus{
+	color:#666464;
+}
+
+.table{
+	clear:both;
+	display:table;
+	margin:0 auto;
+}
+#copyright{
+	margin-bottom:60px;
+}
+#social{
+	clear:both;
+	margin-bottom:40px;
+	
+}
+#social a{
+	color:#fff;
+	}
+.btn-twitter{
+	background:#569ccd;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	box-shadow:inset 0 1px 0 rgba(255,255,255,0.2);
+	border:1px solid rgba(0,0,0,0.2);
+	margin-bottom:20px;
+	marging-right:5px;
+	
+}
+.btn-facebook{
+	background:#16669d;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	box-shadow:inset 0 1px 0 rgba(255,255,255,0.2);
+	border:1px solid rgba(0,0,0,0.2);
+	margin-bottom:20px;
+}
+
+.btn-facebook:hover,.btn-facebook:focus{
+	background:#10486e;
+}
+
+.btn-twitter:hover,.btn-twitter:focus{
+	background:#3979a5;
+}
+.social-sprite{
+	height:20px;
+	width:24px;
+	display:inline-block;
+	background:transparent url(images/social-sprite.png) no-repeat;
+	position:left top;
+}
+.social-sprite.facebook{
+	background-position:-24px top;
+}
+/******** End Footer*******/
+
+
+/** About US***/
+
+.jumbotron-inner-about {
+	background:#eeeeee;
+	border-bottom:1px solid #ddd;
+	border-top:1px solid #fff;
+	position:relative;
+	
+	padding-left:80px;
+	padding-right:80px;
+	padding-top:60px;
+	padding-bottom:60px;
+	margin-bottom:60px;
+	
+	
+
+
+}
+.jumbotron-about {
+    padding-top: 0px;
+	background: #222 url(images/jumbotron3.jpg) no-repeat 50% top;
+	height:320px;
+	margin-bottom:0px;
+	border-radius:0;
+	}
+
+
+     
+    /* Portrait tablet to landscape and desktop */
+    @media (min-width: 768px) and (max-width: 979px) { 
+	.nav >li {
+	display:inline-block;	
+	}
+	
+	.jumbotron-inner {
+		
+	}
+
+	.jumbotron {
+    padding-top: 0px;
+	background: #222 url(images/jumbotronPort.jpg) no-repeat 50% top;
+	background-size:cover;
+	height:450px;
+	margin-bottom:0px;
+	border-radius:0;
+	}
+	
+	
+	.land button.btn{
+	margin-top:40px;
+	
+}	
+.mortgage button.btn{
+	margin-top:40px;
+}
+.estate button.btn{
+	margin-top:40px;
+}
+
+.land li{
+	
+	padding-left:50px;
+	padding-bottom:15px;
+}
+.mortgage li{
+	
+	padding-left:40px;
+}
+
+.consruction li{
+	
+	padding-left:20px;
+	
+}
+
+
+.estate li{
+	
+	padding-left:10px;
+	padding-bottom:3px;
+}
+
+cite{
+	font-size:14px;
+	font-weight:bold;
+}
+
+
+.carousel-caption h2{
+	font-size:17px;
+	padding-left:30px;
+	text-shadow:none;
+	
+	}
+
+#item1{
+	background:transparent no-repeat;
+
+	
+	}
+	
+
+#item3{
+	
+	height:200px;
+	width:220px;
+		}
+	
+#item4{
+	
+	height:200px;
+	width:220px;
+	
+	}
+		
+}
+     
+    /* Landscape phone to portrait tablet */
+    @media (max-width: 767px) { 
+	.jumbotron-about {
+    padding-top: 0px;
+	background: #222 url(images/jumbotron480.jpg) no-repeat 25% top;
+	background-size:cover;
+	height:150px;
+	margin-bottom:0px;
+	border-radius:0;
+	}
+	.nav{
+		display:block;
+		float:center;
+		margin-top:0px;	
+	}
+	.navbar-brand{
+		margin-top:5px;
+	}
+	.nav >li {
+		display:inline-block;
+		font-size:10px;
+		padding-top:1px;
+	}
+	.nav >li >a {
+		padding:6px 6px;
+		
+		font-size:12px;
+	}
+	.jumbotron-inner {
+		margin-bottom:0px;
+	}
+	
+		.jumbotron-inner h1 {
+    margin-top: 30px;
+	margin-bottom:15px;
+	}
+
+	.jumbotron {
+    padding-top: 0px;
+	background: #222 url(images/jumbotronLand.jpg) no-repeat 25% top;
+	background-size:cover;
+	height:400px;
+	margin-bottom:0px;
+	border-radius:0;
+	}
+.jumbotron-inner button.btn {
+	margin-bottom:5px;}
+button.btn{
+	margin-bottom:30px;
+}
+
+.carousel-inner{
+	margin-top:0px;	
+	height:150px;
+}
+
+.carousel-caption h2{
+	font-size:17px;
+	padding-left:30px;
+	text-shadow:none;
+	
+	}
+
+#item1{
+	background:transparent no-repeat;
+
+	
+	}
+	
+
+#item3{
+	
+	height:120px;
+	width:180px;
+		}
+	
+#item4{
+	
+	height:120px;
+	width:180px;
+	
+	}
+
+cite{
+	font-size:12px;
+	font-weight:bold;
+}
+
+}
+     
+    /* Landscape phones and down */
+    @media (max-width: 480px) { 
+		h1{
+			font-size:24px;
+		}
+		
+		.jumbotron-inner button.btn {
+		margin-bottom:5px;
+		font-size:10px;
+		height:25px;
+		
+		}
+		.jumbotron-inner h1 {
+		margin-top: 30px;
+		margin-bottom:10px;
+		}
+	
+	.jumbotron-about {
+		padding-top: 0px;
+		background: #222 url(images/jumbotron480.jpg) no-repeat 25% top;
+		height:120px;
+		margin-bottom:0px;
+		border-radius:0;
+		}
+			.jumbotron {
+		padding-top: 0px;
+		background: #222 url(images/jumbotron480.jpg) no-repeat 25% top;
+		background-size:cover;
+		height:265px;
+		margin-bottom:0px;
+		border-radius:0;
+		}
+		.nav{
+			display:block;
+			float:none;
+			margin-bottom:0px
+		
+		}
+		.nav >li {
+		
+			display:inline-block;
+			font-size:10px;
+		}
+		
+		.nav >li >a {
+			
+			font-size:10px;
+			padding:5px 5px;
+	
+		}
+		
+		.navbar-brand{
+		background:url(images/logoland.png) no-repeat;
+		width:140px;
+		height:39px;
+		margin-top:5px;
+		
+	}
+	
+	/*******************************Start of Carousel*********************************************/
+	.active.item{
+		height:100px;
+		margin-bottom:20px;
+		
+	}
+	.carousel-inner{
+		
+			height:100px;
+	}
+	.carousel {
+		margin-top:0px;
+	
+	}
+	.carousel-caption h2{
+		margin-top:40px;
+		font-size:15px;
+		
+		text-shadow:none;
+		clear:both;
+		
+		}
+	
+	#item1{
+		background:transparent no-repeat;
+	
+		
+		}
+	#item2{
+		
+		height:80px;
+		width:150px;
+			}	
+	
+	#item3{
+		
+		height:80px;
+		width:150px;
+			}
+		
+	#item4{
+		
+		height:80px;
+		width:150px;
+		
+		}
+		
+		/************* Process********/
+	 #process li{
+		 font-size:12px;
+	}
+		.process-icon{
+		margin-bottom:10px;
+		display:inline-block;
+		width:50px;
+		height:50px;
+		background:transparent url(images/process_sprite480.png) no-repeat;
+		background-position:left top;
+	}
+	
+	.process-icon.imortgage{
+		background-position:-50px top;
+	}
+	
+	.process-icon.iconstruction{
+		background-position:-100px top;
+	}	
+	
+	.process-icon.iestate{
+		background-position:-150px top;
+	}
+	
+	/************************Button*****************************/
+		button.btn{
+		-webkit-border-radius:1px;
+		-moz-border-radius:1px;
+		border-radius:1px;
+		background:#dba128;
+		font-size:8px;
+		border:1px solid rgba(0,0,0,0.2);
+		margin-top:10px;
+		margin-bottom:30px;
+		height:25px;
+	}
+	/************************End Button*****************************/
+	
+	.testimonial blockquote p {
+	   
+		font-size: 10px;
+	
+	 
+	}
+	.products{
+		font-size:10px;
+		
+	}	
+	.process-connector{
+		max-height:3px;
+		background:url(images/h-line.jpg) repeat-x;
+		-webkit-border-radius:1px;
+		-moz-border-radius:1px;
+		border-radius:1px;	
+		position:relative;
+		top:27px;	
+	}
+	
+	cite{
+		font-size:10px;
+		font-weight:bold;
+	}
+	
+	.col-sm-8 {
+		margin-left:0px;
+		padding-left:0px;
+		}
+	
+	tr > td{
+		padding-left:0px;
+		font-size:12px;
+		}
+	.table > thead > tr > th, .table > tbody > tr > th,  .table > thead > tr > td, .table > tbody > tr > td,  {
+		padding:5px;
+		padding-left:2px;}
+		
+		.tableHeader{
+		height:30px;
+		width:350px;	
+		padding-top:1px;
+		
+	
+	}
+}

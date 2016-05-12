@@ -1,22 +1,18 @@
-@font-face{
-	font-family:'lobster';
-	src:url('fonts/LobsterTwo-Regular.ttf') format('truetype');
-	font-family:'Museo';
-	src:url('fonts/Museo_Slab.otf') format('truetype');
-}
+
 
 h1 a{
 	color : #FCA205;
-	font-family: 'lobster';
+	font-family: 'Lobster';
 }
 
 h2 a{
 	color : #FCA205;
+	font-size: 36px;
 }
 
 body{
 	padding-left: 15px ;
-	font-size: 14px;
+	font-size: 12px;
 
 }
 
@@ -30,19 +26,20 @@ a{
 }
 a:hover ,a:focus{
 	color:#c71e28;
-	text-decoration:none;	
+	text-decoration:none;
 }
 
 
 .page-header{
-	background-color: #ff9400 ;
+	background-color: transparent none no-repeat ;
 	margin-bottom:15px;
+	padding-left: 40px;
 
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #ffffff;
-    font-size: 36pt;
+    color: #7D192F;
+    font-size: 48px;
     text-decoration: none;
 }
 
@@ -80,7 +77,166 @@ h1, h2, h3, h4 {
 }
 
 .post h1 a, .post h1 a:visited {
-    color: #000000;
+    color: #7d192f;
+    font-size:36px;
 }
 
 
+.navbar-collapse {
+	margin:0px;
+
+	padding:30px 0px;
+	background:transparent;
+	border:none;
+	box-shadow: none;
+	margin-bottom:30px;
+	margin-top:20px;
+
+	}
+
+.navbar-default {
+	border:none;
+	box-shadow: none;
+	margin:0;
+	padding:0;
+
+
+}
+
+
+.navbar {
+	margin-top:0px;
+	background:#7d192f;
+	border-bottom:1px solid rgba(255,255,255,0.2);
+}
+
+.navbar-brand{
+	text-indent:-9999px;
+	background:url() no-repeat;
+	width:238px;
+	height:68px;
+	margin-top:20px;
+}
+
+
+
+.navbar-default .navbar-nav > li > a {
+
+	text-shadow:none;
+		color:#fff;
+}
+
+
+.navbar-nav > li > a{
+	font-weight:bold;
+	font-size:14px;
+	text-shadow:none;
+	color:#ffffff;
+	padding:4px 10px;
+}
+
+
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+	box-shadow:none;
+	background:transparent;
+	color:rgba(255,255,255,0.7);
+}
+
+.navbar-default .navbar-nav > .active > a{
+	box-shadow:none;
+	background:rgba(0,0,0,0.7) no-repeat  ;
+	color:#fff;
+
+}
+ .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+	box-shadow:none;
+	background:rgba(0,0,0,0.7) no-repeat  ;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	color:rgba(255,255,255,0.7);
+}
+
+
+.navbar-collapse {
+	background:none ;
+	margin-bottom:20px;
+	box-shadow:none;
+
+}
+.navbar-collapse.collapse {
+
+}
+
+
+
+button.navbar-toggle {
+	background:#fff;
+	box-shadow:none;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background:#000;
+}
+
+.nav{
+	background:transparent no-repeat;
+	border:none;
+	float:right;
+	margin-bottom:20px;
+
+}
+.nav >li {
+
+	display:inline-block;
+
+
+}
+.nav >li > a{
+
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+	background:transparent;
+	padding:4px 10px;
+
+}
+
+.nav >li > a:hover, .nav >li > a:focus{
+	box-shadow:none;
+	background:transparent;
+	color:rgba(255,255,255,0.7);
+}
+
+
+.nav > .active > a:hover,.nav > .active > a:focus{
+	box-shadow:none;
+	background:rgba(0,0,0,0.7) no-repeat  ;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	color:rgba(255,255,255,0.7);
+
+}
+
+.nav > .active{
+	box-shadow:none;
+	background:rgba(0,0,0,0.7) no-repeat  ;
+	color:#fff;
+
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+	background:none;
+}
+
+/******* jumbotron rules**************/
+
+.jumbotron p {
+	margin-bottom: 15px;
+	font-size: 14px;
+	font-weight: 200;
+}
+
+.jumbotron h1, .jumbotron .h1 {
+	font-size: 36px;
+}

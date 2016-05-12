@@ -1,31 +1,79 @@
 {% load staticfiles %}
 <html>
-	<head>
-		<title>TechTweaks</title>
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-		<link rel="stylesheet" href="{% static 'css/bootstrap.css" type="text/css' %}" />
-        <link rel="stylesheet" href="{% static 'css/bootstrap-theme.css' %}" type="text/css" />
-        <link rel="stylesheet" href="{% static 'css/blog.css' %}" type="text/css" />
+    <head>
+        <meta charset="utf-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TechTweaks</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link href="http://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}"  />
 
 
 
 
-	</head>
+    </head>
 
-	<body>
-        <div class="page-header">
-            <h1><a href="/">TechTweaks Blog</a></h1>
-        </div>
-        <div class="content container">
-            <div class="row">
-                 <div class="col-md-8">
-                    {% block content %}
-                     {% endblock %}
-                 </div>
-           </div>
-       </div>
-	</body>
+    <body>
 
 
-</html>
+            <div class="jumbotron">
+                <div class="container">
+                    <nav class="navbar navbar-default">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#techTweakNavBar">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#">
+                                </a>
+
+                            </div><!---End Navbar-header-- -->
+                         <div class="collapse navbar-collapse" id="techTweakNavBar">
+
+                                <ul class="nav">
+                                    <li class="active" ><a href="index.html">Home</a></li>
+                                    <li ><a href="#">Portfolio</a></li>
+                                    <li><a href="#">Our Services</a></li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Products<span class="caret">                                 </span>
+                                          <span class="sr-only">Toggle Dropdown</span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Our Contacts</a></li>
+                                    <li><a href="#">Projects</a></li>
+                                </ul>
+                            </div> <!---End collapsed links-- -->
+
+                        </div><!---End container-fluid-- -->
+                    </nav><!---End Nav-- -->
+
+
+
+
+
+
+                </div>
+
+                    <div class="page-header">
+                        <h1 ><a href="/">TweaksBlog</a></h1>
+                        
+                        {% if user.is_authenticated %}
+                           <h1 ><a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a></h1>
+                        {% endif %}
+
+                     </div>
+                    <div class="content container">
+                        <div class="row">
+                            <div class="col-md-8">
+                                {% block content %}
+                                {% endblock %}
+                            </div>
+                         </div>
+                    </div>
